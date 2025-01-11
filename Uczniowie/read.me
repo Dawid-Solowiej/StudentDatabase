@@ -1,0 +1,46 @@
+# System zarządzania studentami
+
+Poniższy projekt jest przykładową aplikacją napisaną w języku **Java** z wykorzystaniem biblioteki **Swing** do stworzenia graficznego interfejsu użytkownika (GUI).  
+Aplikacja służy do zarządzania listą studentów w lokalnej bazie danych **SQLite**.
+
+
+## Opis projektu
+Aplikacja pozwala na:
+- **Dodawanie** nowych studentów,
+- **Usuwanie** studentów,
+- **Aktualizowanie** danych studentów,
+- **Wyświetlanie** listy wszystkich studentów,
+- **Obliczanie** średniej ocen.
+
+Dane studentów są przechowywane w lokalnej bazie danych **SQLite**.
+
+---
+
+## Wymagania
+- Zainstalowane **Java 8**
+- Biblioteka **SQLite JDBC**
+- Środowisko programistyczne lub możliwość uruchamiania plików `.java` z linii poleceń.
+
+
+---
+
+## Instalacja i konfiguracja
+
+1. **Pobierz projekt**  
+   - Sklonuj repozytorium lub skopiuj pliki źródłowe do wybranego folderu.
+
+2. **Umieść plik biblioteki SQLite JDBC**  
+   - Upewnij się, że w katalogu głównym projektu masz `sqlite-jdbc-xxx.jar`.
+
+3. **(Opcjonalne) Sprawdź plik bazy `students.db`**  
+   - Jeśli pliku `students.db` nie ma, aplikacja sama go utworzy wraz z tabelą `students`.
+
+---
+
+## Uruchomienie
+
+### A) Uruchomienie w IDE
+1. Otwórz projekt w wybranym IDE.
+2. Dodaj `sqlite-jdbc-xxx.jar` do **Project/Module Libraries**
+3. Uruchom klasę `StudentGUI` z metodą `main`.
+
